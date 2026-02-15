@@ -52,7 +52,12 @@ The overall flow looks like this:
 └── llm-ui/
     ├── main.py                      # Python desktop UI for sending error messages
     └── config.py                    # Configuration (set your Raspberry Pi IP here)
+
 ```
+
+<p align="center">
+  <img src="docs/images/folder.drawio.png" alt="Folder structure" width="700">
+</p>
 
 ---
 
