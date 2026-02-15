@@ -22,7 +22,9 @@ Requirements:
 
 The overall flow looks like this:
 
-![Beschreibung](docs/images/8.png)
+<p align="center">
+  <img src="docs/images/8.png" alt="Architecture Diagram" width="700">
+</p>
 
 1. An error occurs while working on SAP Integration Suite (Cloud Integration / CPI).
 2. A Python application on the PC sends the error message to the Raspberry Pi. Alternatively, a simple `curl` command can be used.
