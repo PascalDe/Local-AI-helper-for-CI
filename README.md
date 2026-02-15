@@ -22,19 +22,7 @@ Requirements:
 
 The overall flow looks like this:
 
-```
-[SAP BTP – Cloud Integration]
-        ↓  (1) Error occurs
-      [PC]
-        ↓  (2) Python UI / CURL sends error text
-  [Raspberry Pi 5]
-    ├── FastAPI endpoint: /analyze-error
-    ├── MariaDB  ← previously known issues & solutions   (3)
-    ├── ChromaDB ← SAP notes & SAP blog posts            (3)
-    └── TinyLlama (via llama.cpp)                        (4)
-        ↓
-    Answer returned to PC
-```
+![Beschreibung](docs/images/8.png)
 
 1. An error occurs while working on SAP Integration Suite (Cloud Integration / CPI).
 2. A Python application on the PC sends the error message to the Raspberry Pi. Alternatively, a simple `curl` command can be used.
