@@ -1,10 +1,10 @@
-# SAP Integration Suite – Local AI Error Helper 🤖
+# SAP Integration Suite – Local AI Error Helper
 
 > A local AI prototype running on a Raspberry Pi 5 that helps you research and resolve errors encountered in the SAP Integration Suite.
 
 ---
 
-## 💡 Motivation
+## Motivation
 
 Working with the SAP Integration Suite means encountering error messages – sometimes cryptic ones. The idea behind this project was simple: what if there were a local AI tool that could help research those errors, suggest root causes, and point towards solutions?
 
@@ -18,7 +18,7 @@ Requirements:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The overall flow looks like this:
 
@@ -43,7 +43,7 @@ The overall flow looks like this:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -66,7 +66,7 @@ The overall flow looks like this:
 
 ---
 
-## 🛠️ Implementation
+## Implementation
 
 ### Prerequisites
 
@@ -230,7 +230,7 @@ cmake .. -DLLAMA_NATIVE=ON
 make -j4
 ```
 
-> ⏳ This may take a few minutes!
+> This may take a few minutes!
 
 #### Download TinyLlama
 
@@ -275,7 +275,7 @@ pip install fastapi uvicorn
 python3 -m pip install chromadb llama-cpp-python mysql-connector-python
 ```
 
-> ⏳ This may take a while!
+> This may take a while!
 
 Start the server:
 
@@ -304,7 +304,7 @@ INFO: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Option A – Quick test via CURL
 
@@ -328,7 +328,7 @@ curl -X POST http://[YOUR-RASPBERRY-PI-IP]:8000/analyze-error \
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 The result is a fully local, zero-cost AI prototype that can help diagnose SAP Integration Suite errors using a combination of:
 - A personal **error history** (MariaDB)
@@ -341,7 +341,7 @@ There's also no reason this has to stay local. The same concept could be deploye
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** – see [LICENSE](LICENSE) for details.
 
@@ -349,6 +349,6 @@ The TinyLlama model is licensed under the **Apache License 2.0**. Please refer t
 
 ---
 
-## 🏷️ Topics
+## Topics
 
 `sap` `sap-integration-suite` `sap-cpi` `sap-btp` `raspberry-pi` `llm` `local-ai` `tinyllama` `chromadb` `fastapi` `rag` `python`
