@@ -234,7 +234,7 @@ cmake .. -DLLAMA_NATIVE=ON
 make -j4
 ```
 
-> ⚠️ Be aware, this may take a few minutes!
+> Be aware, this may take a few minutes!
 
 **Downloading the actual LLM model:**
 
@@ -295,7 +295,7 @@ pip install fastapi uvicorn
 python3 -m pip install chromadb llama-cpp-python mysql-connector-python
 ```
 
-> ⚠️ This may take a while!
+> This may take a while!
 
 Now that FastAPI is available, let's start it up!
 
