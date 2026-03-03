@@ -1,0 +1,11 @@
+plugins:
+  - jekyll-sitemap
+
+include:
+  - robots.txt
+
+defaults:
+  - scope:
+      path: "sitemap.xml"
+    values:
+      layout: null
