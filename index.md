@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Local AI Helper for SAP Integration Suite – Raspberry Pi 5 & TinyLlama"
+description: "A lightweight AI-powered error helper for SAP Integration Suite, running locally on a Raspberry Pi 5 using TinyLlama, FastAPI, ChromaDB and MariaDB."
+keywords: "SAP Integration Suite, SAP CPI, SAP BTP, Local AI, TinyLlama, Raspberry Pi, FastAPI, ChromaDB, RAG, LLM, SAP CI, error helper"
+lang: en
+---
+
 # SAP Integration Suite – Local AI Error Helper
 
 In recent times, it has become inevitable to accept that AI is already an integral part of our everyday lives. Everyone knows about ChatGPT, Google has introduced an AI mode, and virtually all IT companies have announced plans to introduce AI products or incorporate AI into their existing ones.
