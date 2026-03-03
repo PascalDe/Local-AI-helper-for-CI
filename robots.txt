@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pascalde.github.io/Local-AI-helper-for-CI/sitemap.xml
